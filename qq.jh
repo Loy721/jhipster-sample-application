@@ -1,0 +1,37 @@
+
+entity File(files){
+	id Long
+    topic String
+    content String
+}
+
+entity Test(tests) {
+	id Long
+	name String
+    questions String
+}
+
+entity Question(questions) {
+	id Long
+	content String
+}
+
+entity UserTest(users_tests) {
+    grade Integer
+}
+
+entity MyUser(my_users) {
+	id Long
+	name String
+    surname String
+}
+
+relationship ManyToOne {
+	Test{file} to File{tests}
+}
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Files, Tests, Questions, MyUsers, UserTest
