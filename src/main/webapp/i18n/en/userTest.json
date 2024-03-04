@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "userTest": {
+      "home": {
+        "title": "User Tests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Test",
+        "createOrEditLabel": "Create or edit a User Test",
+        "notFound": "No User Tests found"
+      },
+      "created": "A new User Test is created with identifier {{ param }}",
+      "updated": "A User Test is updated with identifier {{ param }}",
+      "deleted": "A User Test is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Test {{ id }}?"
+      },
+      "detail": {
+        "title": "User Test"
+      },
+      "id": "ID",
+      "grade": "Grade"
+    }
+  }
+}
