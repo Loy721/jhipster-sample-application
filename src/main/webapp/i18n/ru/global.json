@@ -7,7 +7,11 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Сущности",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "file": "File",
+        "myTest": "My Test",
+        "question": "Question",
+        "myUser": "My User"
       },
       "account": {
         "main": "Профиль",
