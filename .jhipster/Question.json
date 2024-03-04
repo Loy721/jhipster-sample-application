@@ -1,0 +1,24 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094500"
+  },
+  "applications": "*",
+  "entityTableName": "question",
+  "fields": [
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Question",
+  "relationships": [
+    {
+      "otherEntityName": "myTest",
+      "otherEntityRelationshipName": "myQuestions",
+      "relationshipName": "myTest",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
