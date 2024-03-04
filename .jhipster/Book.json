@@ -1,0 +1,24 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094400"
+  },
+  "applications": "*",
+  "entityTableName": "book",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Book",
+  "relationships": [
+    {
+      "otherEntityName": "author",
+      "otherEntityRelationshipName": "books",
+      "relationshipName": "author",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
