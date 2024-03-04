@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "myFile": {
+      "home": {
+        "title": "My Files",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый My File",
+        "createOrEditLabel": "Создать или отредактировать My File",
+        "notFound": "My Files не найдено"
+      },
+      "created": "Новый My File создан с идентификатором {{ param }}",
+      "updated": "My File обновлен с идентификатором {{ param }}",
+      "deleted": "My File удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить My File {{ id }}?"
+      },
+      "detail": {
+        "title": "My File"
+      },
+      "id": "ID",
+      "name": "Name",
+      "books": "Books"
+    }
+  }
+}
