@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094600"
+  },
+  "applications": "*",
+  "entityTableName": "users_tests",
+  "fields": [
+    {
+      "fieldName": "grade",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "UserTest",
+  "relationships": [],
+  "searchEngine": "no"
+}
