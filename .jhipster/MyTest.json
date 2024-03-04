@@ -1,0 +1,31 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094400"
+  },
+  "applications": "*",
+  "entityTableName": "my_test",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    }
+  ],
+  "name": "MyTest",
+  "relationships": [
+    {
+      "otherEntityName": "myQuestion",
+      "otherEntityRelationshipName": "publisher",
+      "relationshipName": "publishedBooks",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "file",
+      "otherEntityRelationshipName": "books",
+      "relationshipName": "author",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
