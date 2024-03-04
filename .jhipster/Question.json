@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094500"
+  },
+  "applications": "*",
+  "entityTableName": "question",
+  "fields": [
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Question",
+  "relationships": [],
+  "searchEngine": "no"
+}
