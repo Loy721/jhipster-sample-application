@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "myUser": {
+      "home": {
+        "title": "My Users",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый My User",
+        "createOrEditLabel": "Создать или отредактировать My User",
+        "notFound": "My Users не найдено"
+      },
+      "created": "Новый My User создан с идентификатором {{ param }}",
+      "updated": "My User обновлен с идентификатором {{ param }}",
+      "deleted": "My User удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить My User {{ id }}?"
+      },
+      "detail": {
+        "title": "My User"
+      },
+      "id": "ID",
+      "name": "Name",
+      "surname": "Surname"
+    }
+  }
+}
