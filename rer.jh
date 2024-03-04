@@ -1,0 +1,27 @@
+entity Files(files){
+	id Long
+    topic String
+    content String
+}
+
+entity Tests(tests) {
+	id Long
+	name String
+    questions String
+}
+
+entity Questions(questions) {
+	id Long
+	content String
+}
+
+entity UserTest(users_tests) {
+    grade Integer
+}
+
+entity MyUsers(my_users) {
+	id Long
+	name String
+    surname String
+}
+
