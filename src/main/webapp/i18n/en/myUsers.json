@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "myUsers": {
+      "home": {
+        "title": "My Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new My Users",
+        "createOrEditLabel": "Create or edit a My Users",
+        "notFound": "No My Users found"
+      },
+      "created": "A new My Users is created with identifier {{ param }}",
+      "updated": "A My Users is updated with identifier {{ param }}",
+      "deleted": "A My Users is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete My Users {{ id }}?"
+      },
+      "detail": {
+        "title": "My Users"
+      },
+      "id": "Id",
+      "name": "Name",
+      "surname": "Surname"
+    }
+  }
+}
