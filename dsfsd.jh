@@ -1,0 +1,35 @@
+entity File {
+    topic String
+    content String
+}
+
+entity Test {
+    name String
+    // Ссылка на сущность Question
+    questions Question
+}
+
+entity Question {
+    content String
+}
+
+entity UserTest {
+    grade Integer
+}
+
+entity MyUser {
+    name String
+    surname String
+}
+
+relationship OneToMany {
+    File{tests} to Test{file}
+    Test{users} to UserTest{test}
+}
+
+relationship ManyToOne {
+    Test{questions} to Question{test}
+    UserTest{myUser} to MyUser{tests}
+}
+
+
