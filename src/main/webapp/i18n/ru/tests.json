@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "tests": {
+      "home": {
+        "title": "Tests",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Tests",
+        "createOrEditLabel": "Создать или отредактировать Tests",
+        "notFound": "Tests не найдено"
+      },
+      "created": "Новый Tests создан с идентификатором {{ param }}",
+      "updated": "Tests обновлен с идентификатором {{ param }}",
+      "deleted": "Tests удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Tests {{ id }}?"
+      },
+      "detail": {
+        "title": "Tests"
+      },
+      "id": "Id",
+      "name": "Name",
+      "questions": "Questions"
+    }
+  }
+}

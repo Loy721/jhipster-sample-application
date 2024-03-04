@@ -1,0 +1,21 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094500"
+  },
+  "applications": "*",
+  "entityTableName": "questions",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Questions",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "searchEngine": "no"
+}
