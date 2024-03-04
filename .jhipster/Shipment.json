@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094400"
+  },
+  "applications": "*",
+  "entityTableName": "shipment",
+  "fields": [
+    {
+      "fieldName": "trackingCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "details",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Shipment",
+  "relationships": [
+    {
+      "otherEntityField": "code",
+      "otherEntityName": "invoice",
+      "otherEntityRelationshipName": "shipment",
+      "relationshipName": "invoice",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "searchEngine": "no"
+}
