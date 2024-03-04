@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "userTest": {
+      "home": {
+        "title": "User Tests",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый User Test",
+        "createOrEditLabel": "Создать или отредактировать User Test",
+        "notFound": "User Tests не найдено"
+      },
+      "created": "Новый User Test создан с идентификатором {{ param }}",
+      "updated": "User Test обновлен с идентификатором {{ param }}",
+      "deleted": "User Test удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить User Test {{ id }}?"
+      },
+      "detail": {
+        "title": "User Test"
+      },
+      "id": "ID",
+      "grade": "Grade"
+    }
+  }
+}
