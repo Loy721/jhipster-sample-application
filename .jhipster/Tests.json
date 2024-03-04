@@ -1,0 +1,24 @@
+{
+  "annotations": {
+    "changelogDate": "20240304094400"
+  },
+  "applications": "*",
+  "entityTableName": "tests",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "questions",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Tests",
+  "relationships": [],
+  "searchEngine": "no"
+}
