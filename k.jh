@@ -1,0 +1,13 @@
+
+entity File{
+  topic String
+  content String
+}
+
+entity Test {
+  name String
+}
+
+relationship OneToMany {
+  Test{files} to File{test}
+}
