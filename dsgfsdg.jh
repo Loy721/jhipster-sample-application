@@ -1,0 +1,43 @@
+
+entity Files(files){
+	id Long
+    topic String
+    content String
+}
+
+entity Tests(tests) {
+	id Long
+	name String
+    questions String
+}
+
+entity Questions(questions) {
+	id Long
+	content String
+}
+
+entity UserTest(users_tests) {
+    grade Integer
+}
+
+entity MyUsers(my_users) {
+	id Long
+	name String
+    surname String
+}
+
+relationship OneToMany {
+	Files{tests} to Tests{file}
+    Tests{questions} to Questions{test}
+    MyUsers{tests} to UserTest{myUser}
+    Tests{users} to UserTest{test}
+}
+// Set pagination options
+paginate Questions with infinite-scroll
+paginate Tests with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Files, Tests, Questions, MyUsers
