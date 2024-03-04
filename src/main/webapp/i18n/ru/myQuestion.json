@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "myQuestion": {
+      "home": {
+        "title": "My Questions",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый My Question",
+        "createOrEditLabel": "Создать или отредактировать My Question",
+        "notFound": "My Questions не найдено"
+      },
+      "created": "Новый My Question создан с идентификатором {{ param }}",
+      "updated": "My Question обновлен с идентификатором {{ param }}",
+      "deleted": "My Question удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить My Question {{ id }}?"
+      },
+      "detail": {
+        "title": "My Question"
+      },
+      "id": "ID",
+      "name": "Name",
+      "publisher": "Publisher"
+    }
+  }
+}

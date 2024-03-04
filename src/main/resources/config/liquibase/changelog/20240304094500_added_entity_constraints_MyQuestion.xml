@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity MyQuestion.
+    -->
+    <changeSet id="20240304094500-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="publisher_id"
+                                 baseTableName="my_question"
+                                 constraintName="fk_my_question__publisher_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="my_test"
+                                 />
+    </changeSet>
+</databaseChangeLog>
