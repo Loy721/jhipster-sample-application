@@ -1,0 +1,16 @@
+entity MyFile {
+  name String
+}
+
+entity MyTest {
+  title String
+}
+
+entity MyQuestion {
+  name String
+}
+
+relationship OneToMany {
+  MyFile{books} to MyTest{author}
+  MyTest{publishedBooks} to MyQuestion{publisher}
+}
